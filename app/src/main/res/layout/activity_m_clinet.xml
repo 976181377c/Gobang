@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".mClinet">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="客机"
+            android:textSize="50dp" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/eT"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="10.0.2.2"
+        />
+
+    <com.example.gobang.BoardS
+        android:id="@+id/boardC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/butClinet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="连接"/>
+    <Button
+        android:id="@+id/butClinet2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="测试"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="false"
+        android:id="@+id/imClinet"
+        android:text=""/>
+
+</LinearLayout>
